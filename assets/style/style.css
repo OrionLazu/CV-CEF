@@ -1,3 +1,205 @@
+
+#profil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+#profil img {
+    margin-top: 25px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    filter : drop-shadow(0 0 0.75rem #dbc2a4);
+
+}
+header {
+    background-color: #782221;
+    width: 1160px;
+    height: 300px;
+}
+
 body {
-    display: flexbox;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1160px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #782221;
+    width: 1160px;
+}
+
+#me {
+    background-color: #782221;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+#info {
+    background-color: #2c1d27;
+    color: white;
+    height: 90px;
+    width: 1160px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#information{
+    width: 1160px;
+}
+address {
+    width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+p#rue{
+    text-align: left;
+    margin-left: 30px;
+
+}
+p#email {
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+p#numero {
+    text-align: right;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 30px;
+}
+#network {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-content: space-around;
+}
+
+#about h3 {
+    background-color: #dbc2a4;
+    padding-left: 30px;
+    width: 225px;
+}
+
+#languages h3 {
+    background-color: #dbc2a4;
+    width: 225px;
+    padding-left: 30px;
+}
+
+#center_of_interest h3 {
+    background-color: #dbc2a4;
+    width: 225px;
+    padding-left: 30px;
+}
+
+#about p{
+    color: white;
+    text-indent: 10%;
+    padding-left: 30px;
+    width: 225px;
+
+}
+
+#about {
+    height: 12px;
+    width: 400px;
+    /*padding-left: 10px;*/
+    padding-right: 10px;
+}
+
+#languages {
+    height: 195px;
+}
+#languages ul {
+    color: white;
+    padding-left: 30px;
+}
+
+#center_of_interest ul {
+    color: white;
+    padding-left: 30px;
+}
+
+#ensemble {
+    display: flex;
+}
+
+#professional_experience h3 {
+    background-color: #dbc2a4;
+    border-left: #782221 solid;
+    border-left-width: 5px;
+    border-right-width: 40px;
+    padding-left: 5px;
+
+}
+
+#diplomas_and_qualifications h3 {
+    background-color: #dbc2a4;
+    border-left: #782221 solid;
+    border-left-width: 5px;
+    border-right-width: 40px;
+    padding-left: 5px;
+}
+
+#skills h3 {
+    background-color: #dbc2a4;
+    border-left: #782221 solid;
+    border-left-width: 5px;
+    border-right-width: 40px;
+    padding-left: 5px;
+}
+
+#corps {
+    padding-right: 10px;
+    width: 817px;
+    border-right-width: 3px;
+    border-right-style: solid;
+    padding-left: 30px;
 }
