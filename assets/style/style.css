@@ -1,9 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 #profil {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-between;
+}
+
+body {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1160px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #profil img {
@@ -20,13 +29,6 @@ header {
     height: 300px;
 }
 
-body {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 1160px;
-}
 
 h1 {
     color: white;
