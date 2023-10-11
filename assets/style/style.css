@@ -1,4 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face {
+    font-family: "Lato", sans-serif;
+    src: url("../font/Lato-Regular.woff");
+    src: url("../font/Lato-Regular.ttf") format("truetype");
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
 #profil {
     display: flex;
     flex-wrap: wrap;
@@ -158,6 +181,7 @@ p#numero {
 
 #languages {
     height: 195px;
+    padding-top: 200px;
 }
 #languages ul {
     color: white;
@@ -205,3 +229,4 @@ p#numero {
     border-right-style: solid;
     padding-left: 30px;
 }
+
