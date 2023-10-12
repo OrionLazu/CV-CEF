@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 @font-face {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
     src: url("../font/Lato-Regular.woff");
     src: url("../font/Lato-Regular.ttf") format("truetype");
 }
@@ -234,7 +234,7 @@ p#numero {
 
 #languages {
     height: 195px;
-    padding-top: 200px;
+    padding-top: 450px;
 }
 #languages ul {
     color: white;
@@ -286,4 +286,36 @@ p#numero {
 #corps h3:hover{
     border-right: #782221 solid;
     border-right-width: 5px;
+}
+
+#total{
+    display: flex;
+}
+
+#hidden1 {
+    display: none;   
+}
+
+#hidden2 {
+    display: none;   
+}
+
+#hidden3 {
+    display: none;   
+}
+
+#hidden4 {
+    display: none;   
+}
+
+#hidden5 {
+    display: none;   
+}
+
+#hidden6 {
+    display: none;   
+}
+
+#hidden7 {
+    display: none;   
 }
