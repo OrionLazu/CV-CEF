@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face {
+    font-family: "Lato";
+    src: url("../font/Lato-Regular.woff");
+    src: url("../font/Lato-Regular.ttf") format("truetype");
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+}
+
+h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+#profil {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+body {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 1160px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#profil img {
+    margin-top: 25px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: fill;
+    filter : drop-shadow(0 0 0.75rem #dbc2a4);
+
+}
+
+#profil img:hover{
+    cursor: zoom-in;
+    
+}
+
+header {
+    background-color: #782221;
+    width: 1160px;
+    height: 300px;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #782221;
+    width: 1160px;
+}
+
+#me {
+    background-color: #782221;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+#info {
+    background-color: #2c1d27;
+    color: white;
+    height: 90px;
+    width: 1160px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+#information{
+    width: 1160px;
+    text-decoration: none;
+}
+address {
+    width: 1160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+a:link {
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+p#rue{
+    text-align: left;
+    margin-left: 30px;
+
+
+}
+p#email {
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+p#numero {
+    text-align: right;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#network {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+#network_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+#network_1:hover {
+    opacity: 80%;
+}
+
+#network_2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+    align-content: space-around;
+}
+
+#network_2:hover {
+    opacity: 80%;
+}
+
+#network_3 {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-content: space-around;
+}
+
+#network_3:hover {
+    opacity: 80%;
+}
+
+#about h3 {
+    background-color: #dbc2a4;
+    padding-left: 30px;
+    width: 225px;
+}
+
+#languages h3 {
+    background-color: #dbc2a4;
+    width: 225px;
+    padding-left: 30px;
+}
+
+#center_of_interest h3 {
+    background-color: #dbc2a4;
+    width: 225px;
+    padding-left: 30px;
+}
+
+#about p{
+    color: white;
+    text-indent: 10%;
+    padding-left: 30px;
+    width: 225px;
+
+}
+
+#about {
+    height: 12px;
+    width: 400px;
+    padding-right: 10px;
+}
+
+#languages {
+    height: 195px;
+    padding-top: 450px;
+}
+#languages ul {
+    color: white;
+    padding-left: 30px;
+}
+
+#center_of_interest ul {
+    color: white;
+    padding-left: 30px;
+}
+
+#ensemble {
+    display: flex;
+}
+
+#professional_experience h3 {
+    background-color: #dbc2a4;
+    border-left: #782221 solid;
+    border-left-width: 5px;
+    border-right-width: 40px;
+    padding-left: 5px;
+
+}
+
+#diplomas_and_qualifications h3 {
+    background-color: #dbc2a4;
+    border-left: #782221 solid;
+    border-left-width: 5px;
+    border-right-width: 40px;
+    padding-left: 5px;
+}
+
+#skills h3 {
+    background-color: #dbc2a4;
+    border-left: #782221 solid;
+    border-left-width: 5px;
+    border-right-width: 40px;
+    padding-left: 5px;
+}
+
+#corps {
+    padding-right: 10px;
+    width: 817px;
+    border-right-width: 3px;
+    border-right-style: solid;
+    padding-left: 30px;
+}
+
+#corps h3:hover{
+    border-right: #782221 solid;
+    border-right-width: 5px;
+}
+
+#total{
+    display: flex;
+}
+
+#hidden1 {
+    display: none;   
+}
+
+#hidden2 {
+    display: none;   
+}
+
+#hidden3 {
+    display: none;   
+}
+
+#hidden4 {
+    display: none;   
+}
+
+#hidden5 {
+    display: none;   
+}
+
+#hidden6 {
+    display: none;   
+}
+
+#hidden7 {
+    display: none;   
+}
